@@ -1,0 +1,156 @@
+(footprint "CPRX2520L-6R8MC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d036b51c-ba4f-4e97-bd4d-e47a30634347")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LQH32CN220K53L"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6d27990d-8a6a-4a49-b5fb-c021bd6a38ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0030.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "373f1e89-d018-4a18-8937-644c4cc4d1f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "22 µH Unshielded Drum Core, Wirewound Inductor 250 mA 923mOhm Max Nonstandard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d05267d6-c89a-49f0-bd94-25b8f8af72c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "I" "250mA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac4ac529-95c2-4f14-9013-b09a6d7eb477")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "L" "22uH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "feef9bfe-294f-4d23-9c5e-66f770244096")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -10.4 -12.5)
+		(end 10.4 12.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8bb39f06-02a6-454d-9f4c-f67b749b7a1a")
+	)
+	(fp_rect
+		(start -10.4 -12.5)
+		(end 10.4 12.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a0bc1613-b375-42f1-bb71-4b6d9759e89a")
+	)
+	(fp_rect
+		(start -10.4 -12.5)
+		(end 10.4 12.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c4a83eb1-215d-4cc9-9b14-6bef4fd407f2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9882549d-8561-4124-8332-4025bef90ac4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 6.15 -7.75 90)
+		(size 7 4.6)
+		(drill oval 5 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fba04233-5780-4b47-a8a2-c6e81289f026")
+	)
+	(pad "2" thru_hole rect
+		(at -6.15 7.75 90)
+		(size 7 4.6)
+		(drill oval 5 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5350371b-36b8-43a8-8cb1-39c160c0b18a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/CPRX2520L-6R8MC/CPRX2520L-6R8MC 3D Model.stp"
+		(offset
+			(xyz -10.5 -466 -191.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

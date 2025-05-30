@@ -1,0 +1,150 @@
+(footprint "CWX823-100.0M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CWX823-100.0M")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "736dfa18-c9ce-4fdb-a4f4-341ef71cbd9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CWX823-100.0M"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1ced30e-03f7-4bec-b0bb-785fb2b5c0a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.conwin.com/datasheets/sm/sm126.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12cf93b4-6a36-4455-9f7a-1b6140cb902c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "100 MHz XO (Standard) LVCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "767e5786-ef02-4f96-896b-a6315c004b0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.235 8.695)
+		(end 2.93 15.355)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "59a498ad-2754-4a6b-8025-76c7f9f54b84")
+	)
+	(fp_circle
+		(center -3.345 16.47)
+		(end -3.195 15.895)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "aa57a113-3b7f-42c4-8872-72011541b3bf")
+	)
+	(fp_rect
+		(start -4.235 8.695)
+		(end 2.93 15.355)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "42606a46-bdf2-493a-b8ba-d22e8860fd5c")
+	)
+	(fp_rect
+		(start -4.235 8.695)
+		(end 2.93 15.355)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8f65bdc2-94e9-4791-abce-8d01282f9e44")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "13bed15e-9cb3-494b-bea0-f7d7c132dc79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.195 14.205 90)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8470a090-c46b-4018-82cb-2254cebd67f2")
+	)
+	(pad "2" smd rect
+		(at 1.885 14.205 90)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bfe6419c-99cc-4b51-bdf2-9366a0151f4d")
+	)
+	(pad "3" smd rect
+		(at 1.885 9.805 90)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3797acc-ab07-46ea-bc5b-1c169486ee0a")
+	)
+	(pad "4" smd rect
+		(at -3.195 9.805 90)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f944943c-5f06-4545-a0bc-20bf7fe32690")
+	)
+	(embedded_fonts no)
+	(model "E:/KiCAD Library/CWX823_100_0M/CWX8XX_CNW.step"
+		(offset
+			(xyz -0.65 -12 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

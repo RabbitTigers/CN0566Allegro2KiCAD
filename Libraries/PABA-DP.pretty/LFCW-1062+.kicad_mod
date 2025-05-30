@@ -1,0 +1,121 @@
+(footprint " LFCW-1062+"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr " LFCW-1062+")
+	(property "Reference" "REF**"
+		(at 0.0025 -1.245 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "789502ee-4c09-4b4c-a116-ea570fd6a52d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.18)
+			)
+		)
+	)
+	(property "Value" "LFCW-1062+"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6037c920-dea4-4b8b-bfd6-efc4e67656d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCW-1062+.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c850571-f6ef-4e44-b5c6-25285940374f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "10.8GHz Low Pass Ceramic Filter 50Ohm 0603 (1608 Metric), 4 PC Pad"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2718d2e4-e814-4bc9-b9aa-6f2dcbcd188f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.905 -0.51)
+		(end 0.91 0.505)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "53ffc6ae-bdd3-4a90-bb2d-e6126f9b12be")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a246d668-e9ba-4456-848a-b1db349e86e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.72 -0.005)
+		(size 0.25 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "51b7a49a-05e8-45ad-a6b4-62c4ecb059ae")
+	)
+	(pad "2" smd rect
+		(at 0.005 0.315)
+		(size 0.81 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a47a68cf-6e6d-474c-8967-7edc69f24ca4")
+	)
+	(pad "3" smd rect
+		(at 0.73 -0.005)
+		(size 0.25 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2b24f757-645e-40d1-890c-acf5608985d6")
+	)
+	(pad "4" smd rect
+		(at 0.005 -0.325)
+		(size 0.81 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a59eb8ee-1542-4e47-84ee-26501ac87f9e")
+	)
+	(embedded_fonts no)
+	(model "E:/KiCAD Library/LFCW-1062+/LFCW-1062+/3D/LFCW-1062+.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

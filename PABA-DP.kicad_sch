@@ -1,0 +1,434 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1b74eff2-580c-4b71-b276-daaf48eb9de6")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 129.286 101.6)
+		(size 46.736 32.004)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b1914dc-be5b-4581-b42f-56de2ba5104f")
+		(property "Sheetname" "5"
+			(at 129.286 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5.kicad_sch"
+			(at 129.286 134.1886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 312.166 49.53)
+		(size 42.926 33.782)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14e8ad26-e8e7-4559-bbb0-15a3e89ef4b5")
+		(property "Sheetname" "4"
+			(at 312.166 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4.kicad_sch"
+			(at 312.166 83.8966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 309.88 101.6)
+		(size 45.212 34.544)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17819185-0b38-4038-ad82-8b610da734eb")
+		(property "Sheetname" "8"
+			(at 309.88 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "8.kicad_sch"
+			(at 309.88 136.7286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 101.092)
+		(size 45.974 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1bb463f2-adb7-43c1-b2c9-0d8fc8ad8d0c")
+		(property "Sheetname" "6"
+			(at 187.96 100.3804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "6.kicad_sch"
+			(at 187.96 134.6966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 188.214 148.844)
+		(size 46.482 29.718)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "255b28b1-2c3c-4f46-be75-54eebaaa3690")
+		(property "Sheetname" "10"
+			(at 188.214 148.1324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "10.kicad_sch"
+			(at 188.214 179.1466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.158 149.098)
+		(size 44.45 28.956)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36aa104a-a202-48cf-9fd8-262c151ad211")
+		(property "Sheetname" "11"
+			(at 248.158 148.3864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "11.kicad_sch"
+			(at 248.158 178.6386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 148.336)
+		(size 45.974 28.194)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f70e153-97cb-4183-b848-6b8fbc736da8")
+		(property "Sheetname" "9"
+			(at 129.54 147.6244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "9.kicad_sch"
+			(at 129.54 177.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 310.388 149.352)
+		(size 44.45 29.464)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "680c579b-d0d2-4d68-9c4f-a41f9ef541a4")
+		(property "Sheetname" "12"
+			(at 310.388 148.6404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12.kicad_sch"
+			(at 310.388 179.4006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 252.476 49.022)
+		(size 41.91 33.528)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68256175-a9c4-4004-953a-3c49a62a0a05")
+		(property "Sheetname" "3"
+			(at 252.476 48.3104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3.kicad_sch"
+			(at 252.476 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 101.6)
+		(size 45.466 33.782)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd8f8cf4-52e4-4c10-b749-78082ccab946")
+		(property "Sheetname" "7"
+			(at 247.65 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "7.kicad_sch"
+			(at 247.65 135.9666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

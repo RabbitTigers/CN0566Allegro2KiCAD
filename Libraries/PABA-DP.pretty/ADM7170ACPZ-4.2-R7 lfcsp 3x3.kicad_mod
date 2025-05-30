@@ -1,0 +1,234 @@
+(footprint "ADM7170ACPZ-4.2-R7 lfcsp 3x3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "8-Lead LFCSP*")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at -0.145 -2.76 0)
+		(layer "F.SilkS")
+		(uuid "6726be0f-59e6-43db-b57c-7995ab29671b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ADM7150ACPZ-1.8-R7"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "85f3626b-3703-40dc-8876-5993539030e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM7150.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a6c1840-34c3-42aa-9891-acd4b57dce5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 800mA 8-LFCSP-WD (3x3)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05858878-5b01-4dfd-8683-5b5b16d9ca22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.875 -1.4)
+		(end -1.875 -1.275)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "abc312a6-168f-46e0-9b9b-a27a20ff40b5")
+	)
+	(fp_line
+		(start -2.125 -1.8)
+		(end 2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2182a10-cc8d-42a1-a504-bab72c76ac82")
+	)
+	(fp_line
+		(start -2.125 1.8)
+		(end -2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d9b7aee-bb1d-4e01-b3ec-a8a9e343a65b")
+	)
+	(fp_line
+		(start 2.125 -1.8)
+		(end 2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08bf3a2c-02ad-44cf-a617-1c6a61fcfc8a")
+	)
+	(fp_line
+		(start 2.125 1.8)
+		(end -2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a979577-52be-421d-bdef-4f376eae2366")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4fdf1ba9-fa0a-4a82-a37f-bce85fcb7342")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2aaff550-ecc1-462e-9807-3231b5ce0125")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64bd61f2-de40-49b1-bd10-b4ccae5f3f10")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9101219e-ca2c-434d-bb0b-1e2d8a402600")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f076d6c5-e06e-49e9-97d8-337b240cd626")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d589be0c-ec92-4029-86a0-29e7b065184b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 -0.75 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "72865525-8f44-479d-9f86-62116d01550c")
+	)
+	(pad "2" smd rect
+		(at -1.45 -0.25 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9f8e7755-51ee-44c0-967c-ec1f603c77b6")
+	)
+	(pad "3" smd rect
+		(at -1.45 0.25 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "19ce1e4d-368b-4689-95d7-25f1db42c652")
+	)
+	(pad "4" smd rect
+		(at -1.45 0.75 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ad133efb-325d-4bca-b622-3f5eeadcf29f")
+	)
+	(pad "5" smd rect
+		(at 1.45 0.75 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cd1a36e9-b8ce-4d05-88f2-ba3be8a2f57a")
+	)
+	(pad "6" smd rect
+		(at 1.45 0.25 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dcf0eb87-a0be-4fda-9a49-fb860d6005e8")
+	)
+	(pad "7" smd rect
+		(at 1.45 -0.25 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df98726c-0a0b-49c5-b1e4-d0610928ee84")
+	)
+	(pad "8" smd rect
+		(at 1.45 -0.75 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "649c92a7-773a-415a-be08-9c582447e691")
+	)
+	(pad "PAD" smd rect
+		(at 0 0)
+		(size 1.7 2.54)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6c28b103-b8ea-4bda-a742-c28ec9294848")
+	)
+	(embedded_fonts no)
+	(model "E:/KiCAD Library/ADM7170ACPZ-4.2-R7/ADM7170ACPZ-4.2-R7/3D/ADM7170ACPZ-4.2-R7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

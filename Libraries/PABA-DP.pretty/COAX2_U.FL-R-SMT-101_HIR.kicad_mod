@@ -1,0 +1,188 @@
+(footprint "COAX2_U.FL-R-SMT-101_HIR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "U.FL-R-SMT-101 ")
+	(property "Reference" "REF**"
+		(at -0.795 -2.44 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c82c9867-b9ce-4030-98cb-87e0cee3659e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "U.FL-R-SMT-1(01)"
+		(at 0 -3.215 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f8efc30d-d19e-4026-b27a-b8811a427835")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.hirose.com/product/download/?distributor=digikey&type=specSheet&lang=en&num=U.FL-R-SMT-1(01)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6ed298b-7479-4c2e-81a5-dcc62614e744")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN U.FL RCPT STR 50 OHM SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57306fab-07b7-4788-9d3f-cae494b36d14")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.870829 -1.4224)
+		(end -0.870829 -1.4224)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a514f58-cfde-47f9-afc2-1375d61d01a5")
+	)
+	(fp_line
+		(start -2.2497 -1.5494)
+		(end -2.2497 2.304301)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6bad1930-8a0e-44a4-94cb-97b8e0ea477f")
+	)
+	(fp_line
+		(start -2.2497 2.304301)
+		(end 2.2497 2.304301)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96c078d5-4887-4353-bbdb-9a69ca370bbd")
+	)
+	(fp_line
+		(start 2.2497 -1.5494)
+		(end -2.2497 -1.5494)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83c43888-aeaa-415e-be7d-d81684d698c8")
+	)
+	(fp_line
+		(start 2.2497 2.304301)
+		(end 2.2497 -1.5494)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f6f464d-f9bf-4b25-a898-8616c3849f68")
+	)
+	(fp_line
+		(start -2.2544 -1.541851)
+		(end -2.2544 2.31185)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d46dfb7a-f218-4a4e-ade8-fa4fa3787be4")
+	)
+	(fp_line
+		(start -2.2544 2.31185)
+		(end 2.245 2.31185)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b9e55bd-6e1e-4839-8903-1206cb20ed0b")
+	)
+	(fp_line
+		(start 2.245 -1.541851)
+		(end -2.2544 -1.541851)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1129c7df-1e05-46d6-95e1-b00a4479c684")
+	)
+	(fp_line
+		(start 2.245 2.31185)
+		(end 2.245 -1.541851)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59942a23-12ed-4b10-8ca8-0575fcfd81c6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.02 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f0b219a-7175-468b-8cf8-c4d644dd9228")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 1.529601)
+		(size 1 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eb486e3a-29aa-4b26-a1fc-6622497dfdc1")
+	)
+	(pad "2" smd rect
+		(at -1.475001 0.0046)
+		(size 1.0414 2.2098)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "76b8508c-6169-4bd5-b7b1-45b81f138149")
+	)
+	(pad "3" smd rect
+		(at 1.475001 0.0046)
+		(size 1.0414 2.2098)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d66dc8cc-5219-49a1-854d-bf6616edd0a4")
+	)
+	(embedded_fonts no)
+	(model "E:/KiCAD Library/U.FL-R-SMT-1(01)/U.FL-R-SMT-1.stp"
+		(offset
+			(xyz 55.25 1.1 22.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 180)
+		)
+	)
+)

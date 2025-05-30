@@ -1,0 +1,159 @@
+(footprint "MOLEX_85305-0232"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.325 -4.485 0)
+		(layer "F.SilkS")
+		(uuid "d17def7d-f73f-42f1-bca8-674a31440942")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0853050232"
+		(at 7.31 8.645 0)
+		(layer "F.Fab")
+		(uuid "21cebb19-f330-49f9-8b64-744e5e02236d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/853050232?display=pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28b764c5-9293-4605-9465-ac5db69a907c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMP Connector Plug, Male Pin 50 Ohms Surface Mount Solder"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dd0cac4-5669-4dd8-a8a1-34b84d9779af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -2.805 -2.685)
+		(end 2.865 4.035)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e8487c0f-ab3a-49eb-b447-fd7a1e9e6552")
+	)
+	(fp_rect
+		(start -2.82 -2.7)
+		(end 2.85 4.02)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6ffda5ae-d3fb-40f2-ac42-74ed045fe876")
+	)
+	(fp_rect
+		(start -2.805 -2.7)
+		(end 2.865 4.02)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "264d3359-be71-4a1a-9714-c59a7b2494f6")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.005 0.115)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "fe8d4989-90e1-460d-af83-88d1d6fa4ee4")
+	)
+	(pad "1" smd custom
+		(at -0.015 3.03)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1 -0.07) (xy -0.097716 -0.081481) (xy -0.091213 -0.091213) (xy -0.081481 -0.097716) (xy -0.07 -0.1)
+					(xy 0.07 -0.1) (xy 0.081481 -0.097716) (xy 0.091213 -0.091213) (xy 0.097716 -0.081481) (xy 0.1 -0.07)
+					(xy 0.1 0.07) (xy 0.097716 0.081481) (xy 0.091213 0.091213) (xy 0.081481 0.097716) (xy 0.07 0.1)
+					(xy -0.07 0.1) (xy -0.081481 0.097716) (xy -0.091213 0.091213) (xy -0.097716 0.081481) (xy -0.1 0.07)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.10985 -0.507898) (xy 0.15685 -0.507898) (xy 0.15685 0.787502) (xy -0.10985 0.787502)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "cd26ee22-6873-43cd-a872-318e0ad7d33e")
+	)
+	(pad "2" smd custom
+		(at -1.372406 1.739111)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.500502 -0.108388) (xy 0.500502 0.981914) (xy -1.222184 0.982948) (xy -1.222184 -4.224052)
+					(xy 3.984816 -4.224052) (xy 3.984816 0.982948) (xy 2.262816 0.982948)
+					(arc
+						(start 2.26213 -0.108387)
+						(mid 1.381316 -3.37056)
+						(end 0.500502 -0.108387)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "13758884-fca5-43db-a82c-774a914aa21f")
+	)
+	(embedded_fonts no)
+	(model "E:/KiCAD Library/853050232/853050232.stp"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
