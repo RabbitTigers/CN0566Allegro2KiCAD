@@ -6180,7 +6180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 176.53 138.938 0)
 			(effects
 				(font
@@ -6276,7 +6276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 258.064 73.406 0)
 			(effects
 				(font
@@ -6683,7 +6683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 372.364 90.424 0)
 			(effects
 				(font
@@ -6857,7 +6857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 186.944 138.938 0)
 			(effects
 				(font
@@ -8869,7 +8869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 250.952 86.36 0)
 			(effects
 				(font
@@ -9617,7 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 295.91 197.866 0)
 			(effects
 				(font
@@ -9842,7 +9842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 209.55 99.568 0)
 			(effects
 				(font
@@ -10495,7 +10495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 260.35 171.704 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-25554394719026388
+25570133939613307
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56217,6 +56217,13 @@ CPRX2520L-6R8MC
 2
 2
 Custom
+CPnt
+CPnt
+
+0
+1
+1
+Custom
 CUI_TB001-500-02BE
 
 
@@ -56251,6 +56258,20 @@ CWX823-100.0M
 0
 4
 4
+Custom
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Custom
+Custom PABA MH
+
+
+0
+1
+0
 Custom
 D2PAK MC7812
 
@@ -56518,6 +56539,13 @@ SOIC SO
 16
 16
 Custom
+JMP_Custom
+
+
+0
+2
+2
+Custom
 JST_B2B-PH-K-S
 
 
@@ -56728,6 +56756,13 @@ Through hole socket strip THT 2x08 2.54mm double row
 16
 16
 Custom
+PinSocket_2x20_P2.54mm_Vertical_SMD
+surface-mounted straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Surface mounted socket strip SMD 2x20 2.54mm double row
+0
+40
+40
+Custom
 QFN3.5x4.5-22L
 
 
@@ -56738,6 +56773,20 @@ Custom
 RES_ERJP06_PAN
 
 ERJP06J3R9V 
+0
+2
+2
+Custom
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Custom
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
 0
 2
 2
@@ -71974,6 +72023,13 @@ LFCSP NoLead
 25
 21
 PABA-DP
+LFCW-1062+
+ LFCW-1062+
+
+0
+4
+4
+PABA-DP
 LT3460ESC6#TRMPBF sc-70-6 sc-88
 SOT-363, SC-70-6, SC-88
 SOT-363 SC-70-6 SC-88
@@ -72162,6 +72218,13 @@ Testpoint
 0
 1
 1
+PABA-DP
+Untitled
+
+
+0
+0
+0
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13

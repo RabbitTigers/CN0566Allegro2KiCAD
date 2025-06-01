@@ -5,6 +5,244 @@
 	(uuid "60b502dd-ef79-402d-b56d-be9928aad47b")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Custom:JMP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at -0.254 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JMP"
+				(at 0.762 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Custom:JMP_Custom"
+				(at 0 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JMP_0_0"
+				(circle
+					(center -2.032 -0.762)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -0.762)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JMP_0_1"
+				(arc
+					(start -1.524 -0.508)
+					(mid 0 0)
+					(end 1.524 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JMP_1_1"
+				(pin passive line
+					(at -5.08 -0.762 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -0.762 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom:JMP2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JMP2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Custom:JMP_Custom"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JMP2_0_0"
+				(circle
+					(center -2.286 -1.778)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 -1.778)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JMP2_1_1"
+				(pin passive line
+					(at -5.334 -1.778 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 4.826 -1.778 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PABA-DP:150060YS75000"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2835,7 +3073,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm"
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3022,24 +3260,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -35.052 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3859,12 +4079,6 @@
 		(uuid "1f344a54-a39c-47ac-874e-0149a1c9f4a4")
 	)
 	(junction
-		(at 64.77 159.258)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26b06b17-0697-4273-b3be-8f78637a9e27")
-	)
-	(junction
 		(at 80.01 138.938)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3889,6 +4103,12 @@
 		(uuid "386eb810-0a06-4062-9030-167809ac1dc4")
 	)
 	(junction
+		(at 271.272 214.884)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b878915-7cc1-4eb2-a9d7-57fec232d15e")
+	)
+	(junction
 		(at 171.45 138.684)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3905,6 +4125,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4259bb33-b53b-4621-a680-04ea6757c0b6")
+	)
+	(junction
+		(at 238.76 215.392)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4486945d-226d-41c4-9437-8e44d8319adb")
 	)
 	(junction
 		(at 164.084 224.79)
@@ -3941,12 +4167,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "520d5f05-ee28-4700-99c9-93cbcd0533f8")
-	)
-	(junction
-		(at 204.978 159.004)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52c7f830-d230-4662-beef-a6444b27b1f0")
 	)
 	(junction
 		(at 187.198 219.71)
@@ -3997,10 +4217,10 @@
 		(uuid "70f24237-e251-4e35-848d-acf84778b8aa")
 	)
 	(junction
-		(at 193.548 86.36)
+		(at 255.016 215.138)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "73a518f6-d709-4392-88df-1381cda79898")
+		(uuid "750db668-a704-4648-83fb-2dc01ee9b7c5")
 	)
 	(junction
 		(at 48.768 132.1219)
@@ -4069,16 +4289,16 @@
 		(uuid "a42b535f-4c04-4377-9ecb-d3e53468b274")
 	)
 	(junction
+		(at 255.016 237.744)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a482b871-1fe6-4fe3-b2aa-1b143efe808b")
+	)
+	(junction
 		(at 29.972 145.796)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7de98b7-517e-4735-a3c7-c7bc79491ce3")
-	)
-	(junction
-		(at 69.596 88.646)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9a91fc5-388f-4491-ac36-9f33a102d552")
 	)
 	(junction
 		(at 306.07 225.044)
@@ -4353,6 +4573,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 237.744) (xy 253.238 237.744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068acd17-c0ab-44e2-89d7-c2a0ddff77fc")
+	)
+	(wire
+		(pts
 			(xy 367.538 181.102) (xy 367.538 182.372)
 		)
 		(stroke
@@ -4433,7 +4663,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 159.258) (xy 76.962 159.258)
+			(xy 62.484 159.258) (xy 76.962 159.258)
 		)
 		(stroke
 			(width 0)
@@ -4633,13 +4863,13 @@
 	)
 	(wire
 		(pts
-			(xy 178.562 86.36) (xy 193.548 86.36)
+			(xy 271.272 222.758) (xy 271.272 214.884)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a8de376-fb2a-4c31-b0cf-5702df4499b2")
+		(uuid "1bdb77b2-c919-4093-b5d4-db61deeedfac")
 	)
 	(wire
 		(pts
@@ -4771,16 +5001,6 @@
 			(type default)
 		)
 		(uuid "24c5578e-96bc-4362-a522-fc867eb78f55")
-	)
-	(wire
-		(pts
-			(xy 64.77 156.972) (xy 64.77 159.258)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26218dee-379c-4fc4-a1d9-8c2841ba83d0")
 	)
 	(wire
 		(pts
@@ -5065,6 +5285,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 222.25) (xy 238.76 215.392)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44186510-0c7b-41ee-a2fb-d86294d7e5b6")
+	)
+	(wire
+		(pts
 			(xy 205.8898 62.738) (xy 205.8898 59.182)
 		)
 		(stroke
@@ -5105,6 +5335,16 @@
 	)
 	(wire
 		(pts
+			(xy 343.154 71.12) (xy 344.424 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468a75b8-d113-4cf0-a850-e49f0f98130e")
+	)
+	(wire
+		(pts
 			(xy 342.9 243.586) (xy 342.9 241.808)
 		)
 		(stroke
@@ -5125,6 +5365,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 68.58) (xy 369.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481c690f-3cc3-424a-95da-d482be1aaf57")
+	)
+	(wire
+		(pts
 			(xy 80.772 113.792) (xy 80.772 128.778)
 		)
 		(stroke
@@ -5132,16 +5382,6 @@
 			(type default)
 		)
 		(uuid "48f7e3ae-1522-4d7f-a6e7-9132b8e64685")
-	)
-	(wire
-		(pts
-			(xy 62.484 159.258) (xy 64.77 159.258)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a25f2cd-79b9-4160-9b16-f6c1d4fbbb7b")
 	)
 	(polyline
 		(pts
@@ -5183,6 +5423,16 @@
 			(type default)
 		)
 		(uuid "4e241963-5e13-44dd-a756-21237eb9912f")
+	)
+	(wire
+		(pts
+			(xy 255.016 237.744) (xy 271.272 237.744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4e5c85-9d97-4237-825a-353ace3db3e3")
 	)
 	(polyline
 		(pts
@@ -5247,7 +5497,7 @@
 	)
 	(wire
 		(pts
-			(xy 253.238 237.744) (xy 271.272 237.744)
+			(xy 253.238 237.744) (xy 255.016 237.744)
 		)
 		(stroke
 			(width 0)
@@ -5257,13 +5507,13 @@
 	)
 	(wire
 		(pts
-			(xy 331.724 68.58) (xy 344.424 68.58)
+			(xy 358.14 68.58) (xy 357.124 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5470b468-b9be-400f-b670-947e90d870e8")
+		(uuid "54b32dc7-7a78-41f3-a450-84b85ea6fb66")
 	)
 	(wire
 		(pts
@@ -5335,16 +5585,6 @@
 			(type default)
 		)
 		(uuid "57b21d36-ea06-497f-869e-8604f9bb5b63")
-	)
-	(wire
-		(pts
-			(xy 331.724 71.12) (xy 344.424 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58243313-c13d-4828-8cc7-d4fe0794d655")
 	)
 	(wire
 		(pts
@@ -6161,6 +6401,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 232.41) (xy 238.76 237.744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b4bb3c-6cbb-4ab9-b50b-d908f8696c77")
+	)
+	(wire
+		(pts
 			(xy 318.008 81.28) (xy 318.008 86.106)
 		)
 		(stroke
@@ -6178,16 +6428,6 @@
 			(type default)
 		)
 		(uuid "93bfa96f-04a8-431e-aee4-15ccc5a47a46")
-	)
-	(wire
-		(pts
-			(xy 238.76 237.744) (xy 253.238 237.744)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94a8f0c8-b3be-4868-9b30-5ea2cdea115f")
 	)
 	(wire
 		(pts
@@ -6321,6 +6561,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.994 68.58) (xy 331.724 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8e9a77-9c9a-4767-b8a1-b45173ca2272")
+	)
+	(wire
+		(pts
 			(xy 220.3644 145.542) (xy 220.4233 145.542)
 		)
 		(stroke
@@ -6401,6 +6651,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.994 71.12) (xy 331.724 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ef3c97-825d-4434-9cb8-cb048cbdd858")
+	)
+	(wire
+		(pts
 			(xy 166.878 255.27) (xy 168.402 255.27)
 		)
 		(stroke
@@ -6459,6 +6719,16 @@
 			(color 255 0 255 1)
 		)
 		(uuid "a3ae9736-e1e6-4cc6-97e9-98e4578e32b9")
+	)
+	(wire
+		(pts
+			(xy 271.272 237.744) (xy 271.272 232.918)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55a699b-bbf1-425b-a13b-26a7cbe340aa")
 	)
 	(wire
 		(pts
@@ -6522,7 +6792,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.978 159.004) (xy 218.948 159.004)
+			(xy 202.692 159.004) (xy 218.948 159.004)
 		)
 		(stroke
 			(width 0)
@@ -6640,6 +6910,16 @@
 			(type default)
 		)
 		(uuid "b265e5d6-426b-4e74-8ac9-8f37be373840")
+	)
+	(wire
+		(pts
+			(xy 255.016 221.488) (xy 255.016 215.138)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b275cfce-9147-4e4b-a281-c52e61fed446")
 	)
 	(wire
 		(pts
@@ -6843,6 +7123,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.016 231.648) (xy 255.016 237.744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbbe7c8-2e39-4704-982f-b4314ea74e3d")
+	)
+	(wire
+		(pts
 			(xy 54.61 81.788) (xy 54.61 88.646)
 		)
 		(stroke
@@ -6860,16 +7150,6 @@
 			(type default)
 		)
 		(uuid "bcd11d1a-5db9-44a6-b295-9269b7a7a077")
-	)
-	(wire
-		(pts
-			(xy 69.596 88.646) (xy 83.82 88.646)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce8a480-7c29-409d-8531-b2da3685e366")
 	)
 	(wire
 		(pts
@@ -6893,7 +7173,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.548 86.36) (xy 194.056 86.36)
+			(xy 178.562 86.36) (xy 194.056 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6920,16 +7200,6 @@
 			(type default)
 		)
 		(uuid "c266a105-00b6-4e51-bd4e-2c23401e826a")
-	)
-	(wire
-		(pts
-			(xy 202.692 159.004) (xy 204.978 159.004)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2794147-e6f7-4500-8015-bb56eae1f57e")
 	)
 	(wire
 		(pts
@@ -6980,16 +7250,6 @@
 			(type default)
 		)
 		(uuid "c5008210-2df2-463d-b46b-98a321fff797")
-	)
-	(wire
-		(pts
-			(xy 69.596 86.36) (xy 69.596 88.646)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c501fa10-2ee1-40e2-a187-e8347e568700")
 	)
 	(wire
 		(pts
@@ -7323,16 +7583,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 68.58) (xy 357.124 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfaf542f-8296-4915-9df9-51cb0cf7c8e2")
-	)
-	(wire
-		(pts
 			(xy 86.106 113.792) (xy 93.726 113.792)
 		)
 		(stroke
@@ -7474,6 +7724,16 @@
 	)
 	(wire
 		(pts
+			(xy 343.154 68.58) (xy 344.424 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb00d8e4-5e35-4987-933a-a0fa68d82617")
+	)
+	(wire
+		(pts
 			(xy 171.45 140.716) (xy 171.45 138.684)
 		)
 		(stroke
@@ -7484,16 +7744,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.548 84.074) (xy 193.548 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecdef603-8931-4377-9b3f-6d766616c3a4")
-	)
-	(wire
-		(pts
 			(xy 29.972 138.938) (xy 31.75 138.938)
 		)
 		(stroke
@@ -7501,16 +7751,6 @@
 			(type default)
 		)
 		(uuid "ed012532-27e3-4a02-9c4c-d1379d530429")
-	)
-	(wire
-		(pts
-			(xy 204.978 156.718) (xy 204.978 159.004)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed33a8c6-cf46-4ba2-8ea6-d27998a3b78f")
 	)
 	(wire
 		(pts
@@ -7614,7 +7854,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 88.646) (xy 69.596 88.646)
+			(xy 67.31 88.646) (xy 83.82 88.646)
 		)
 		(stroke
 			(width 0)
@@ -9600,7 +9840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 178.054 125.476 0)
 			(effects
 				(font
@@ -9825,7 +10065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 232.41 114.046 0)
 			(effects
 				(font
@@ -9919,7 +10159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 99.822 221.996 0)
 			(effects
 				(font
@@ -9981,6 +10221,144 @@
 			(project "PABA-DP"
 				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6/680c579b-d0d2-4d68-9c4f-a41f9ef541a4"
 					(reference "C150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:JMP")
+		(at 338.074 70.358 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b6b735d-bed5-4cfe-a090-45619b24b903")
+		(property "Reference" "P15"
+			(at 338.074 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JMP"
+			(at 338.836 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:JMP_Custom"
+			(at 338.074 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 338.074 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 338.074 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ce79691-2c17-429f-855f-fe28e7b1dcb9")
+		)
+		(pin "1"
+			(uuid "5356d5e2-6d46-494e-8039-11f325a32eff")
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6/680c579b-d0d2-4d68-9c4f-a41f9ef541a4"
+					(reference "P15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:JMP2")
+		(at 236.982 227.076 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d06bf4a-96bc-4b2b-b49e-f0f4c72dd307")
+		(property "Reference" "P8"
+			(at 240.03 227.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JMP2"
+			(at 236.982 227.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:JMP_Custom"
+			(at 236.982 227.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.982 227.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.982 227.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f00573fb-7212-4a60-929e-431268fac903")
+		)
+		(pin "2"
+			(uuid "f3c6657c-c62b-40f3-9b6b-2eeb3055950d")
+		)
+		(instances
+			(project ""
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6/680c579b-d0d2-4d68-9c4f-a41f9ef541a4"
+					(reference "P8")
 					(unit 1)
 				)
 			)
@@ -10106,7 +10484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 87.376 124.46 0)
 			(effects
 				(font
@@ -10265,7 +10643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 216.154 51.562 0)
 			(effects
 				(font
@@ -10360,7 +10738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 259.588 123.19 0)
 			(effects
 				(font
@@ -10521,7 +10899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 227.584 124.714 0)
 			(effects
 				(font
@@ -10618,7 +10996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 253.492 202.692 0)
 			(effects
 				(font
@@ -10929,7 +11307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 188.214 220.98 0)
 			(effects
 				(font
@@ -11023,7 +11401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 136.144 114.3 0)
 			(effects
 				(font
@@ -11119,7 +11497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 329.692 193.04 0)
 			(effects
 				(font
@@ -11214,7 +11592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 108.966 117.856 0)
 			(effects
 				(font
@@ -11310,7 +11688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 237.236 202.946 0)
 			(effects
 				(font
@@ -11621,7 +11999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 376.682 172.974 0)
 			(effects
 				(font
@@ -11718,7 +12096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 42.672 55.118 0)
 			(effects
 				(font
@@ -11813,7 +12191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 40.386 121.158 0)
 			(effects
 				(font
@@ -11907,7 +12285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 93.218 218.694 0)
 			(effects
 				(font
@@ -12003,7 +12381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 315.214 195.326 0)
 			(effects
 				(font
@@ -12099,7 +12477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 359.918 218.948 0)
 			(effects
 				(font
@@ -12194,7 +12572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 99.822 214.376 0)
 			(effects
 				(font
@@ -12512,7 +12890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 371.348 212.09 0)
 			(effects
 				(font
@@ -12641,6 +13019,74 @@
 			(project "PABA-DP"
 				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6/680c579b-d0d2-4d68-9c4f-a41f9ef541a4"
 					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:JMP")
+		(at 338.074 67.818 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bc4ad21-8c4f-4c17-8785-88e09d58f673")
+		(property "Reference" "P14"
+			(at 338.074 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JMP"
+			(at 338.836 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:JMP_Custom"
+			(at 338.074 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 338.074 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 338.074 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "022af86a-d59f-4bc5-bda9-bd35a75ea4bc")
+		)
+		(pin "1"
+			(uuid "c0d52ad5-28a6-4970-b08a-d9b129ab37d7")
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6/680c579b-d0d2-4d68-9c4f-a41f9ef541a4"
+					(reference "P14")
 					(unit 1)
 				)
 			)
@@ -12901,7 +13347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 166.624 52.832 0)
 			(effects
 				(font
@@ -13064,7 +13510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 192.278 49.022 0)
 			(effects
 				(font
@@ -13139,9 +13585,6 @@
 		(pin "15"
 			(uuid "176ae71d-04ac-460e-9914-a03f66f699a8")
 		)
-		(pin "17"
-			(uuid "2ba99f66-fa2c-4aab-957a-2897a38dc4a0")
-		)
 		(instances
 			(project "PABA-DP"
 				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6/680c579b-d0d2-4d68-9c4f-a41f9ef541a4"
@@ -13177,7 +13620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 68.326 51.308 0)
 			(effects
 				(font
@@ -13251,9 +13694,6 @@
 		)
 		(pin "15"
 			(uuid "eb32216b-324e-4218-b52e-0325e94694cf")
-		)
-		(pin "17"
-			(uuid "a22bf105-2737-445f-9900-4121184ac216")
 		)
 		(instances
 			(project "PABA-DP"
@@ -13398,6 +13838,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom:JMP2")
+		(at 253.238 226.314 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8742c781-0655-49d9-8899-cb2ea1d53876")
+		(property "Reference" "P9"
+			(at 256.286 226.5679 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JMP2"
+			(at 253.238 226.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:JMP_Custom"
+			(at 253.238 226.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 253.238 226.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 253.238 226.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d818d105-b578-4ce2-b7ff-21160d4dede9")
+		)
+		(pin "2"
+			(uuid "c8cd79f8-48b0-4eaa-abaf-7a3f01330d4d")
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6/680c579b-d0d2-4d68-9c4f-a41f9ef541a4"
+					(reference "P9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PABA-DP:ERJ-3GEY0R00V")
 		(at 27.432 154.178 90)
 		(unit 1)
@@ -13425,7 +13935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 12.192 151.892 0)
 			(effects
 				(font
@@ -13520,7 +14030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 160.02 207.01 0)
 			(effects
 				(font
@@ -13614,7 +14124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 40.386 128.016 0)
 			(effects
 				(font
@@ -13708,7 +14218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 63.5 121.92 0)
 			(effects
 				(font
@@ -13783,9 +14293,6 @@
 		(pin "15"
 			(uuid "4e9ac47e-e4e6-4ce5-88cf-71a777295970")
 		)
-		(pin "17"
-			(uuid "19c85dca-0a21-4f07-8563-1549f7f15d9e")
-		)
 		(instances
 			(project "PABA-DP"
 				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6/680c579b-d0d2-4d68-9c4f-a41f9ef541a4"
@@ -13823,7 +14330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 80.01 141.224 0)
 			(effects
 				(font
@@ -14363,7 +14870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 220.98 203.454 0)
 			(effects
 				(font
@@ -14526,7 +15033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 220.726 55.118 0)
 			(effects
 				(font
@@ -14751,7 +15258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 366.268 179.832 0)
 			(effects
 				(font
@@ -14979,7 +15486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 188.214 213.36 0)
 			(effects
 				(font
@@ -15137,7 +15644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 37.846 125.73 0)
 			(effects
 				(font
@@ -15363,7 +15870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 92.456 232.156 0)
 			(effects
 				(font
@@ -15525,7 +16032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 203.708 121.666 0)
 			(effects
 				(font
@@ -15599,9 +16106,6 @@
 		)
 		(pin "15"
 			(uuid "41a2b88f-6d68-42dc-9e01-c49b445f6b01")
-		)
-		(pin "17"
-			(uuid "8124fd40-aea9-44eb-be8e-d8023f74ac29")
 		)
 		(instances
 			(project "PABA-DP"
@@ -15788,7 +16292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 259.588 117.602 0)
 			(effects
 				(font
@@ -15882,7 +16386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 93.218 214.63 0)
 			(effects
 				(font
@@ -16084,6 +16588,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom:JMP")
+		(at 363.22 67.818 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddcf4d60-b84c-403f-baff-8df459fbed55")
+		(property "Reference" "P17"
+			(at 363.22 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JMP"
+			(at 363.982 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:JMP_Custom"
+			(at 363.22 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c99a26c-a271-4f22-a8cc-c42b4f4a6076")
+		)
+		(pin "1"
+			(uuid "4733ae3d-1b49-4fc1-89af-9c995c2fce5a")
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6/680c579b-d0d2-4d68-9c4f-a41f9ef541a4"
+					(reference "P17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:JMP2")
+		(at 269.494 227.584 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "deb0ccf3-9b0b-484b-a68e-98017c13c221")
+		(property "Reference" "P10"
+			(at 272.542 227.8379 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JMP2"
+			(at 269.494 227.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:JMP_Custom"
+			(at 269.494 227.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.494 227.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.494 227.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "447efe53-eb89-4052-bf5e-9ee9ee60e47d")
+		)
+		(pin "2"
+			(uuid "f888c7ca-8465-4bb3-a6c4-7731b797ec00")
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6/680c579b-d0d2-4d68-9c4f-a41f9ef541a4"
+					(reference "P10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PABA-DP:GND")
 		(at 226.314 122.682 0)
 		(unit 1)
@@ -16174,7 +16816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 106.426 140.97 0)
 			(effects
 				(font
@@ -16333,7 +16975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom:R_0603_1608Metric"
 			(at 221.234 48.26 0)
 			(effects
 				(font
@@ -16819,7 +17461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Custom:C_0603_1608Metric"
 			(at 92.202 53.848 0)
 			(effects
 				(font
