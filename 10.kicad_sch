@@ -8881,7 +8881,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm"
+			(property "Footprint" "Custom:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10377,6 +10377,12 @@
 		(uuid "8c765e6f-aec4-4f04-a61a-ecc2a1a1bf67")
 	)
 	(junction
+		(at 30.988 226.822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da0662e-360c-4d1d-8198-4b0761911fb9")
+	)
+	(junction
 		(at 152.146 252.222)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10387,6 +10393,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94028226-fa68-4612-ac27-40e9a7213c10")
+	)
+	(junction
+		(at 30.988 232.664)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "972b4568-842d-4ddb-957c-5a1394f7e409")
 	)
 	(junction
 		(at 69.342 252.73)
@@ -11071,6 +11083,16 @@
 			(type default)
 		)
 		(uuid "144aa8c4-a7d1-4613-8ef6-ea21364211c3")
+	)
+	(wire
+		(pts
+			(xy 30.988 226.822) (xy 52.324 226.822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15972522-cedb-47d3-b73a-9d1813fa5ce9")
 	)
 	(wire
 		(pts
@@ -12684,6 +12706,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.988 226.822) (xy 30.988 232.664)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd008e0-72ed-4b45-88c8-fc64b149272b")
+	)
+	(wire
+		(pts
 			(xy 115.316 240.792) (xy 115.316 235.712)
 		)
 		(stroke
@@ -13504,7 +13536,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.084 226.822) (xy 52.324 226.822)
+			(xy 28.702 226.822) (xy 30.988 226.822)
 		)
 		(stroke
 			(width 0)
@@ -13744,7 +13776,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 232.664) (xy 37.846 232.664)
+			(xy 25.4 232.664) (xy 30.988 232.664)
 		)
 		(stroke
 			(width 0)
@@ -14071,6 +14103,16 @@
 			(type default)
 		)
 		(uuid "d928e2b8-8a1c-4aab-91d0-b3f4487893ae")
+	)
+	(wire
+		(pts
+			(xy 30.988 232.664) (xy 37.846 232.664)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9323fa5-3c9a-4734-995a-e7c865e06c55")
 	)
 	(wire
 		(pts
@@ -15178,7 +15220,7 @@
 	)
 	(global_label "VSOURCE"
 		(shape input)
-		(at 37.084 226.822 180)
+		(at 28.702 226.822 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15188,7 +15230,7 @@
 		)
 		(uuid "a784fe0c-f58d-438d-928e-289472586e5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4507 226.822 0)
+			(at 17.0687 226.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25048,7 +25090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm"
+		(property "Footprint" "Custom:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm"
 			(at 139.7 37.084 0)
 			(effects
 				(font

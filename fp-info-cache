@@ -1,4 +1,4 @@
-25570133939613307
+25571882789887197
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56447,6 +56447,13 @@ BD9D320EFJ-E2
 0
 9
 9
+Custom
+HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm
+HTSSOP, 20 Pin (http://www.ti.com/lit/ds/symlink/bq24006.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO TI-PWP/R-PDSO-G20
+0
+24
+21
 Custom
 HTSW-103-07-L-S
 

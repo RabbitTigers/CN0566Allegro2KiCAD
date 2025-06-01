@@ -4697,6 +4697,12 @@
 		(uuid "95b40ab8-f508-4755-be0f-be6cf1b0fb8a")
 	)
 	(junction
+		(at 122.428 216.154)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9658aa8a-3e66-4f48-ae27-6029dc7718b3")
+	)
+	(junction
 		(at 346.71 84.8928)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5590,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 122.428 212.852) (xy 122.428 221.488)
+			(xy 122.428 212.852) (xy 122.428 216.154)
 		)
 		(stroke
 			(width 0)
@@ -6050,6 +6056,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.364 216.154) (xy 122.428 216.154)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c7bbce-cbfe-414a-9200-78dbc7e78afb")
+	)
+	(wire
+		(pts
 			(xy 335.788 87.122) (xy 335.788 84.836)
 		)
 		(stroke
@@ -6187,6 +6203,16 @@
 			(type default)
 		)
 		(uuid "bbd8e0b3-f57a-4c4c-8099-0044ac07780e")
+	)
+	(wire
+		(pts
+			(xy 122.428 216.154) (xy 122.428 221.488)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbeb57f5-81b4-45b0-a471-e9f56c59b370")
 	)
 	(wire
 		(pts
@@ -7383,6 +7409,28 @@
 		(uuid "a785a1c4-8b3e-46dc-815e-f8f9c7656835")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.3372 211.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_RPI"
+		(shape input)
+		(at 118.364 216.154 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aaf2e47a-deb4-4d5d-82b9-8df4c7a07b11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.7869 216.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)

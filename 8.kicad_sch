@@ -5725,7 +5725,7 @@
 		(uuid "21349f6c-f060-4c4a-ab0a-749fbc6f9c24")
 	)
 	(junction
-		(at 275.844 229.108)
+		(at 273.812 234.442)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27316040-47ae-42e6-9254-e7f39a7549c1")
@@ -5743,7 +5743,7 @@
 		(uuid "3c49e0aa-6837-426b-958a-ebac9edc308a")
 	)
 	(junction
-		(at 276.606 229.108)
+		(at 274.574 234.442)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dec67bd-24b5-42f7-9835-687faa5797f6")
@@ -5809,7 +5809,7 @@
 		(uuid "7ca95219-11f7-45eb-ae58-185c7f8d23e6")
 	)
 	(junction
-		(at 279.146 229.108)
+		(at 277.114 234.442)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8066b2f4-eb0a-4eb9-9b4f-ad136c28c1a5")
@@ -5887,7 +5887,7 @@
 		(uuid "b235c164-8bb2-4418-a43e-fddfab63140e")
 	)
 	(junction
-		(at 281.686 229.108)
+		(at 279.654 234.442)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b27f2217-c526-4de0-8385-fd9fd1670a83")
@@ -5951,12 +5951,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e462b22e-c572-4c88-bb0c-e78605a58202")
-	)
-	(junction
-		(at 241.554 216.916)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e71ea55f-9a91-4209-a5e3-8e52e491d3b4")
 	)
 	(junction
 		(at 213.36 115.316)
@@ -6126,7 +6120,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.434 216.916) (xy 292.354 216.916)
+			(xy 295.402 222.25) (xy 290.322 222.25)
 		)
 		(stroke
 			(width 0)
@@ -6156,7 +6150,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.146 229.108) (xy 281.686 229.108)
+			(xy 277.114 234.442) (xy 279.654 234.442)
 		)
 		(stroke
 			(width 0)
@@ -6476,6 +6470,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.142 222.25) (xy 235.966 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e25ef80-cdc3-403a-a05c-e4d59fdd3275")
+	)
+	(wire
+		(pts
 			(xy 45.212 49.53) (xy 57.404 49.53)
 		)
 		(stroke
@@ -6786,7 +6790,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.684 216.916) (xy 256.794 216.916)
+			(xy 263.652 222.25) (xy 254.762 222.25)
 		)
 		(stroke
 			(width 0)
@@ -6946,7 +6950,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.554 179.832) (xy 241.554 216.916)
+			(xy 241.554 179.832) (xy 241.554 217.043)
 		)
 		(stroke
 			(width 0)
@@ -7036,7 +7040,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.844 229.108) (xy 276.606 229.108)
+			(xy 273.812 234.442) (xy 274.574 234.442)
 		)
 		(stroke
 			(width 0)
@@ -7266,7 +7270,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.066 229.108) (xy 275.844 229.108)
+			(xy 272.034 234.442) (xy 273.812 234.442)
 		)
 		(stroke
 			(width 0)
@@ -7393,16 +7397,6 @@
 			(type default)
 		)
 		(uuid "93c3e2c9-a94a-416e-b910-2c60b262f8a8")
-	)
-	(wire
-		(pts
-			(xy 249.174 216.916) (xy 241.554 216.916)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c1df92-f952-4182-81d9-77182cafef20")
 	)
 	(wire
 		(pts
@@ -7676,7 +7670,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.844 231.902) (xy 275.844 229.108)
+			(xy 273.812 237.236) (xy 273.812 234.442)
 		)
 		(stroke
 			(width 0)
@@ -7796,7 +7790,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.686 229.108) (xy 284.226 229.108)
+			(xy 279.654 234.442) (xy 282.194 234.442)
 		)
 		(stroke
 			(width 0)
@@ -7976,16 +7970,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.554 216.916) (xy 241.554 217.043)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e391e1e6-7bce-4443-8371-aad223a5e09d")
-	)
-	(wire
-		(pts
 			(xy 259.842 114.554) (xy 266.192 114.554)
 		)
 		(stroke
@@ -8106,7 +8090,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.606 229.108) (xy 279.146 229.108)
+			(xy 274.574 234.442) (xy 277.114 234.442)
 		)
 		(stroke
 			(width 0)
@@ -8470,7 +8454,7 @@
 	)
 	(global_label "LO_LOC"
 		(shape input)
-		(at 297.434 216.916 0)
+		(at 295.402 222.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8480,7 +8464,7 @@
 		)
 		(uuid "7e40017c-b4e6-4d3b-9d4e-40ba17bc34e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 307.374 216.916 0)
+			(at 305.342 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12473,7 +12457,7 @@
 	)
 	(symbol
 		(lib_id "PABA-DP:GRM033R71A103KA01D")
-		(at 246.634 218.186 90)
+		(at 244.602 223.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12481,7 +12465,7 @@
 		(dnp no)
 		(uuid "8467f8d2-6cb0-45a4-8a36-dd09041f4780")
 		(property "Reference" "C134"
-			(at 248.666 218.694 90)
+			(at 246.634 224.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12489,7 +12473,7 @@
 			)
 		)
 		(property "Value" "GRM033R71A103KA01D"
-			(at 241.3 217.678 0)
+			(at 239.268 223.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12498,7 +12482,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 239.776 217.678 0)
+			(at 237.744 223.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12507,7 +12491,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71A103KA01-01.pdf"
-			(at 237.236 218.44 0)
+			(at 235.204 223.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,7 +12500,7 @@
 			)
 		)
 		(property "Description" "10000 pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)"
-			(at 265.43 217.678 0)
+			(at 263.398 223.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12525,7 +12509,7 @@
 			)
 		)
 		(property "C" "0.01uF"
-			(at 257.556 218.694 90)
+			(at 255.524 224.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12533,7 +12517,7 @@
 			)
 		)
 		(property "V" "10V"
-			(at 257.556 221.234 90)
+			(at 255.524 226.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12541,7 +12525,7 @@
 			)
 		)
 		(property "Acc" "10%"
-			(at 246.634 218.186 0)
+			(at 244.602 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14384,7 +14368,7 @@
 	)
 	(symbol
 		(lib_id "PABA-DP:HMC652LP2E")
-		(at 274.066 210.058 0)
+		(at 272.034 215.392 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14393,7 +14377,7 @@
 		(dnp no)
 		(uuid "dbab61ca-3c14-490f-a077-9c3084242329")
 		(property "Reference" "U33"
-			(at 274.066 210.058 0)
+			(at 272.034 215.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14401,7 +14385,7 @@
 			)
 		)
 		(property "Value" "HMC652LP2E"
-			(at 274.574 211.836 0)
+			(at 272.542 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14409,7 +14393,7 @@
 			)
 		)
 		(property "Footprint" "Custom:HMC652LP2E TDFN 2x2"
-			(at 274.066 210.058 0)
+			(at 272.034 215.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14418,7 +14402,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/hmc652lp2-hmc655lp2.pdf"
-			(at 274.066 210.058 0)
+			(at 272.034 215.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14427,7 +14411,7 @@
 			)
 		)
 		(property "Description" "RF Attenuators 2dB 0 Hz ~ 25 GHz 50 Ohms 6-TDFN Exposed Pad"
-			(at 274.066 210.058 0)
+			(at 272.034 215.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14534,7 +14518,7 @@
 	)
 	(symbol
 		(lib_id "PABA-DP:GND")
-		(at 275.844 231.902 0)
+		(at 273.812 237.236 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14542,7 +14526,7 @@
 		(dnp no)
 		(uuid "e29b1ff6-477a-4f2a-bb59-c0d3933c3885")
 		(property "Reference" "#PWR0179"
-			(at 275.844 238.252 0)
+			(at 273.812 243.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14551,7 +14535,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 278.892 234.696 0)
+			(at 276.86 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14559,7 +14543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.844 231.902 0)
+			(at 273.812 237.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14568,7 +14552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.844 231.902 0)
+			(at 273.812 237.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14577,7 +14561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.844 231.902 0)
+			(at 273.812 237.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
