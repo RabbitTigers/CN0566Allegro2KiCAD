@@ -1,0 +1,173 @@
+(footprint "EVQ-PNF04M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "EVQ5PN05K")
+	(tags "Switch")
+	(property "Reference" "Ref**"
+		(at -0.77 -5.15 0)
+		(layer "F.SilkS")
+		(uuid "5e301998-4acb-4b49-b6ea-25088a1de0c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "EVQ-PNF04M"
+		(at 0.35 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a3d8f1ee-dacb-48e6-a15c-1c555af8be6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42332a1e-3a91-451d-9ab9-f00ca59288ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b90f140-2fa0-422c-967e-103ed8a8ad8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.35 -1.75)
+		(end 3.65 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea77b140-a7b8-4ee7-ab10-e062e979d88c")
+	)
+	(fp_line
+		(start -2.35 -1)
+		(end -2.35 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1288681c-5901-4d02-aa9d-9fa42bf97168")
+	)
+	(fp_line
+		(start -2.35 1)
+		(end -2.35 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e7e776e-d18b-405d-81c5-b7e81d4def82")
+	)
+	(fp_line
+		(start -2.35 1.75)
+		(end 3.65 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "919ffbce-2486-46da-a3db-3a5bde87acef")
+	)
+	(fp_line
+		(start 3.65 -1.75)
+		(end 3.65 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06fa7110-5a64-4581-b7d6-bb1b67c44263")
+	)
+	(fp_line
+		(start 3.65 1.75)
+		(end 3.65 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b73f51d8-99b0-465a-93e7-05f2a4732d6f")
+	)
+	(fp_rect
+		(start -3.15 -1.945)
+		(end 4.425 1.96)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c9c847b7-5182-442e-b5cc-68098a89e41f")
+	)
+	(fp_rect
+		(start -3.15 -1.945)
+		(end 4.425 1.96)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9191b6a6-1118-497a-bb0c-cecee0d87652")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.65 -3.69 0)
+		(layer "F.Fab")
+		(uuid "f05275b4-ff15-4784-a14b-5c31dafd18a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.05 0 90)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b6638a0c-c535-44df-a66b-315ed2c399d2")
+	)
+	(pad "2" smd rect
+		(at 3.35 0 90)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f2b62005-eeca-49a9-9a92-6fb96f06d263")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/EVQ-PNF04M.stp"
+		(offset
+			(xyz 0.65 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,140 @@
+(footprint "IFSC2020DEER100M01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.25 -3.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6d788f5d-a1cb-426c-9e8b-d2d547f20d45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "IFSC2020DEER100M01"
+		(at 1.17 5.67 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "804ffa51-6da1-4eb3-ad97-7d6ff5c1f4f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5db79d4-d567-4476-9e59-09f46be90156")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f98d70d5-24e1-4bab-8eb2-67b5dad76e1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddd747c2-c507-43ad-bc72-05e46ff31b30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.34 -3.18)
+		(end 3.38 3.18)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5e7c01f9-5b2b-4fd1-b324-cab231ae6ccc")
+	)
+	(fp_rect
+		(start -3.34 -3.17)
+		(end 3.38 3.19)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6d28312b-f319-4603-b041-183819318d55")
+	)
+	(fp_rect
+		(start -3.34 -3.18)
+		(end 3.38 3.19)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "284b2cfa-ee27-4410-9537-c4ef4fa06f27")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.24 4.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5037c82e-0189-4a58-a3e5-7b09dc7eba07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.15 0)
+		(size 2 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "273c9f38-d22a-4f20-b774-dc1748483687")
+	)
+	(pad "2" smd rect
+		(at -2.15 0)
+		(size 2 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d763303e-8993-4c91-a9ba-87b51b25ac82")
+	)
+	(model "E:/KiCAD Library/IFSC2020DEER100M01/IFSC2020DEER100M01/3D/IFSC2020DEER100M01.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

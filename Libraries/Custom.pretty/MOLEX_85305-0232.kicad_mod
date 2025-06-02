@@ -1,0 +1,197 @@
+(footprint "MOLEX_85305-0232"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Ref**"
+		(at 0.325 -4.485 0)
+		(layer "F.SilkS")
+		(uuid "3f248ec7-7be5-4ea9-8f1b-8983dbced517")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MOLEX_85305-0232"
+		(at 7.31 8.645 0)
+		(layer "F.Fab")
+		(uuid "ab6e81a7-72be-4db7-a269-a3c0b8913a38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcc8aedf-da03-485e-83d2-66deb25d27a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0df31934-56fc-46c1-ba6b-b682c8ba3f46")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -2.825301 -2.858392)
+		(end 2.844699 3.861608)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1550ca88-8a72-412e-8b1d-20ad979c554a")
+	)
+	(fp_rect
+		(start -2.840301 -2.873392)
+		(end 2.829699 3.846608)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e8ca01f0-2b15-4446-b906-3829b16c0cc7")
+	)
+	(fp_rect
+		(start -2.825301 -2.873392)
+		(end 2.844699 3.846608)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6e170f47-2d19-4dd5-abad-350a73cf3554")
+	)
+	(pad "1" smd custom
+		(at -0.035301 2.856608)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1 -0.07) (xy -0.097716 -0.081481) (xy -0.091213 -0.091213) (xy -0.081481 -0.097716) (xy -0.07 -0.1)
+					(xy 0.07 -0.1) (xy 0.081481 -0.097716) (xy 0.091213 -0.091213) (xy 0.097716 -0.081481) (xy 0.1 -0.07)
+					(xy 0.1 0.07) (xy 0.097716 0.081481) (xy 0.091213 0.091213) (xy 0.081481 0.097716) (xy 0.07 0.1)
+					(xy -0.07 0.1) (xy -0.081481 0.097716) (xy -0.091213 0.091213) (xy -0.097716 0.081481) (xy -0.1 0.07)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.10985 -0.507898) (xy 0.15685 -0.507898) (xy 0.15685 0.787502) (xy -0.10985 0.787502)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "1efc81a3-7ecd-47b1-a745-04d22b8fa6f4")
+	)
+	(pad "2" smd custom
+		(at -1.392707 1.565719)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.500502 -0.108388) (xy 0.500502 0.981914) (xy -1.222184 0.982948) (xy -1.222184 -4.224052)
+					(xy 3.984816 -4.224052) (xy 3.984816 0.982948) (xy 2.262816 0.982948)
+					(arc
+						(start 2.26213 -0.108387)
+						(mid 1.381316 -3.37056)
+						(end 0.500502 -0.108387)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "f6aaf777-4738-44e9-b26d-22665be6d028")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
+			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+			"In30.Cu"
+		)
+		(uuid "88367c1d-e865-41d5-8ad2-6020a2872484")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.365892 -1.617656) (xy 0.605419 -1.539829) (xy 0.829822 -1.425489) (xy 1.033576 -1.277454)
+				(xy 1.211664 -1.099366) (xy 1.359699 -0.895612) (xy 1.474039 -0.671209) (xy 1.551866 -0.431682)
+				(xy 1.591264 -0.182929) (xy 1.591264 0.068925) (xy 1.551866 0.317678) (xy 1.474039 0.557205) (xy 1.359699 0.781608)
+				(xy 1.211664 0.985362) (xy 1.033576 1.16345) (xy 0.829822 1.311485) (xy 0.605419 1.425825) (xy 0.365892 1.503652)
+				(xy 0.117139 1.54305) (xy -0.134715 1.54305) (xy -0.383468 1.503652) (xy -0.622995 1.425825) (xy -0.847398 1.311485)
+				(xy -1.051152 1.16345) (xy -1.22924 0.985362) (xy -1.377275 0.781608) (xy -1.491615 0.557205) (xy -1.569442 0.317678)
+				(xy -1.60884 0.068925) (xy -1.60884 -0.182929) (xy -1.569442 -0.431682) (xy -1.491615 -0.671209)
+				(xy -1.377275 -0.895612) (xy -1.22924 -1.099366) (xy -1.051152 -1.277454) (xy -0.847398 -1.425489)
+				(xy -0.622995 -1.539829) (xy -0.383468 -1.617656) (xy -0.134715 -1.657054) (xy 0.117139 -1.657054)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/853050232.stp"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

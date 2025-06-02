@@ -1,0 +1,153 @@
+(footprint "STPS8H100D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.94 -4.33 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d56942ea-5084-45a9-b0cf-719eb0631328")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.18)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "STPS8H100D"
+		(at 0.085 -0.285 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7390875-0273-4e00-97e9-f4c0259bbde4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 15.715 -9.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00eb8c5c-ca99-445f-9997-ee919398d9e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 15.715 -9.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60d864ec-c9d7-4623-8558-b89dc8dbcf26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 15.715 -9.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7245ad53-21da-4320-ae66-c563a0f6eb7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.28 -1.495)
+		(end 5.28 -1.495)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f2aa743-8c16-49f9-8f61-5c31ae811a54")
+	)
+	(fp_rect
+		(start -5.3 -2.81)
+		(end 5.3 1.99)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d75686c3-92ab-42eb-93a5-15bf5061b91a")
+	)
+	(fp_rect
+		(start -5.3 -2.81)
+		(end 5.3 1.99)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5b04c2e4-ab0e-4d16-88dd-3b94c442b43a")
+	)
+	(fp_rect
+		(start -5.3 -2.81)
+		(end 5.3 1.99)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1369bd46-14f2-4763-983c-5d9cc2e337d3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.04 -0.195 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a85e50be-f016-45d1-9df7-0d2c97c5af84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.5025 0)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "db931d0a-d9c4-4ee4-aa3e-61c80aebdafe")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5025 0)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "970c0a49-fd0f-47ea-9281-ed31fcdf12b9")
+	)
+	(model "E:/KiCAD Library/STPS8H100D/STPS8H100D.STEP"
+		(offset
+			(xyz 0 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

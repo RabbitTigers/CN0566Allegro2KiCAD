@@ -1,0 +1,89 @@
+(footprint "Testpoint"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c74e0c07-8af0-41eb-a633-0e3793bec6ba")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.18)
+			)
+		)
+	)
+	(property "Value" "Testpoint"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4ab909fa-6684-41c3-b92a-b2aefba09a8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f651ad14-c452-48d6-8f87-5e3570a5225e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b2ba50b-1990-4e5f-bee8-3fe6da8c5102")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.835 -3.697)
+		(end -2.325 -3.545)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eb9da66b-dcda-4cd3-af3b-b31ef986549a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "adaede4b-259e-4b49-91db-7cb5bbf8123c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at -2.835 -3.697)
+		(size 1.016 1.016)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0)
+		(uuid "b3487a82-0a04-485e-b9f8-dc77fe9c9609")
+	)
+	(embedded_fonts no)
+)

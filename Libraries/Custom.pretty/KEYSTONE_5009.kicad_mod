@@ -1,0 +1,107 @@
+(footprint "KEYSTONE_5009"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.032 -2.4064 0)
+		(layer "F.SilkS")
+		(uuid "3bbd20fc-59af-4ffe-85ce-e1ace20ddd30")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_5009"
+		(at 3.2832 2.4064 0)
+		(layer "F.Fab")
+		(uuid "1025e429-be09-478c-9029-53ec77b2d215")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c02e392c-d983-4277-90de-f1486298ee73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "998074dd-86f3-4352-b160-ddbf45d53ca1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.155 0.02)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f46d626c-c475-48cf-a3c7-64a9cb838c8e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.21 -0.13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2b13e906-8f46-48f0-a614-867305540961")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.15 -0.06)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c407ce61-af78-4249-a91b-0d6955c024ab")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0)
+		(uuid "30d5d13b-22db-444d-92cb-7af7b87a766f")
+	)
+	(embedded_fonts no)
+	(model "E:/KiCAD Library/5009/5009.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

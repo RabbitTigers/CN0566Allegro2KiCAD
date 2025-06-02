@@ -1,0 +1,236 @@
+(footprint "CUI_TB001-500-02BE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.945 -6.889 0)
+		(layer "F.SilkS")
+		(uuid "21f00a19-8900-413a-a8c1-9fd6af65818e")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CUI_TB001-500-02BE"
+		(at 12.502 5.361 0)
+		(layer "F.Fab")
+		(uuid "61a80730-c3b7-4728-be93-9f402f3157cd")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0653857a-d990-4df4-9f0f-1bb5a59b360a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44e9f31f-c9be-454f-867a-781e6a936861")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ffc3393-e287-4609-ab29-cc24e2474011")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -5)
+		(end 7.5 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86ce43f2-0339-4d7f-b309-adde6af3971d")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61be6181-608c-4786-a1ff-44d419100525")
+	)
+	(fp_line
+		(start 7.5 -5)
+		(end 7.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffea8a72-63fa-40ea-80a4-4d00c5160c5b")
+	)
+	(fp_line
+		(start 7.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "decc8560-efeb-4378-8892-9fd6f48a8f39")
+	)
+	(fp_circle
+		(center -3.02 3.685)
+		(end -2.92 3.685)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ae7dcc68-d1c1-474a-9930-dca3bbda1e45")
+	)
+	(fp_line
+		(start -2.75 -5.25)
+		(end 7.75 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93e24fe0-3434-4984-acce-a96aa0a60939")
+	)
+	(fp_line
+		(start -2.75 4.25)
+		(end -2.75 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66ee1539-a3af-4e46-b015-0a2efe0f56be")
+	)
+	(fp_line
+		(start 7.75 -5.25)
+		(end 7.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21f676ce-8655-4e1c-ab84-a1dc0ee88097")
+	)
+	(fp_line
+		(start 7.75 4.25)
+		(end -2.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ccb87cf-c600-4384-9386-6bba7dfd39e4")
+	)
+	(fp_line
+		(start -2.5 -5)
+		(end 7.5 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2db546d-a060-4361-9bc1-a5b5f70141c4")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9adff091-a06a-493a-a186-1c13e91c2bde")
+	)
+	(fp_line
+		(start 7.5 -5)
+		(end 7.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4f3e88e-edfa-490f-b9a6-7220e2c686ca")
+	)
+	(fp_line
+		(start 7.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b5023e1-c177-41c6-9745-da21b01c8596")
+	)
+	(fp_circle
+		(center -3.02 3.685)
+		(end -2.92 3.685)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "59706975-4705-4ad7-bf18-502dcd12992b")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f5204b76-6d92-43bc-ac9a-32ffa79bc71b")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4c8baf52-55dd-4179-8357-fe5c0e2c61ca")
+	)
+	(model "E:/KiCAD Library/TB001_500_02BE/TB001-500-02BE.STEP"
+		(offset
+			(xyz 20 5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

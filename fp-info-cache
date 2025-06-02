@@ -1,4 +1,4 @@
-25571883814970931
+25515944329749631
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56259,8 +56259,36 @@ CWX823-100.0M
 4
 4
 Custom
+C_0201_0603Metric
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+capacitor
+0
+4
+2
+Custom
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Custom
 C_0603_1608Metric
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Custom
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Custom
+C_1210_3225Metric
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor
 0
 2
@@ -56349,6 +56377,20 @@ STD25N10F7
 0
 3
 3
+Custom
+D_SMA
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+Custom
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
 Custom
 EADOGS164WA
 40.00mm x 33.00mm x 2.60mm
@@ -56637,6 +56679,27 @@ Filter
 8
 8
 Custom
+LFCSP-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm
+LFCSP, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/HMC7992.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+21
+17
+Custom
+LFCSP-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
+LFCSP, 20 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-20/CP_20_8.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+25
+21
+Custom
+LFCW-1062+
+ LFCW-1062+
+
+0
+4
+4
+Custom
 LQH32CH100K53L
 1210 (3225) L=3.2±0.3mm W=2.5±0.2mm T=1.55±0.15mm
 Inductor
@@ -56664,6 +56727,20 @@ Integrated Circuit
 0
 13
 13
+Custom
+L_0603_1608Metric
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+Custom
+L_0805_2012Metric_Pad1.05x1.20mm_HandSolder
+Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+inductor handsolder
+0
+2
+2
 Custom
 M12_Lens_Mount
 
@@ -56742,6 +56819,34 @@ Patch Antenna
 37
 37
 Custom
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+Custom
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+Custom
+PinHeader_1x07_P2.54mm_Vertical
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+7
+7
+Custom
+PinHeader_2x07_P2.54mm_Vertical
+Through hole straight pin header, 2x07, 2.54mm pitch, double rows
+Through hole pin header THT 2x07 2.54mm double row
+0
+14
+14
+Custom
 PinSocket_2x06_P2.54mm_Vertical
 Through hole straight socket strip, 2x06, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
 Through hole socket strip THT 2x06 2.54mm double row
@@ -56770,6 +56875,20 @@ Surface mounted socket strip SMD 2x20 2.54mm double row
 40
 40
 Custom
+QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
+QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+29
+25
+Custom
+QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm
+QFN, 32 Pin (https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+37
+33
+Custom
 QFN3.5x4.5-22L
 
 
@@ -56782,6 +56901,13 @@ RES_ERJP06_PAN
 ERJP06J3R9V 
 0
 2
+2
+Custom
+R_0201_0603Metric
+Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+resistor
+0
+4
 2
 Custom
 R_0402_1005Metric
@@ -56819,6 +56945,20 @@ Schottky Diode
 2
 2
 Custom
+SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm
+SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+13
+9
+Custom
+SOIC-16_3.9x9.9mm_P1.27mm
+SOIC, 16 Pin (JEDEC MS-012, variation AC, https://www.jedec.org/document_search?search_api_views_fulltext=MS-012, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow
+0
+16
+16
+Custom
 SOIC_0AJTR_STM
 
 VN7140AJTR 
@@ -56839,6 +56979,13 @@ Integrated Circuit
 0
 36
 36
+Custom
+SOT-23-5
+SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+5
+5
 Custom
 SOT-23_DIO
 
@@ -56916,6 +57063,34 @@ TL1015AF160QG
 0
 2
 2
+Custom
+TSOT-23-5
+TSOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSOT TO_SOT_SMD
+0
+5
+5
+Custom
+TSSOP-8_4.4x3mm_P0.65mm
+TSSOP, 8 Pin (JEDEC MO-153 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+8
+8
+Custom
+TSSOP-14_4.4x5mm_P0.65mm
+TSSOP, 14 Pin (JEDEC MO-153 Var AB-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+14
+14
+Custom
+TSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm
+TSSOP, 16 Pin (Allegro A4954 https://www.allegromicro.com/-/media/Files/Datasheets/A4954-Datasheet.ashx), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+21
+17
 Custom
 Testpoint
 
@@ -71833,405 +72008,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PABA-DP
- LFCW-1062+
- LFCW-1062+
-
-0
-4
-4
-PABA-DP
-60312202114513
-
-
-0
-5
-5
-PABA-DP
-5Pos Wilkinson divider
-
-
-0
-5
-5
-PABA-DP
-36900000
-36900000-3
-Undefined or Miscellaneous
-0
-5
-5
-PABA-DP
-632723300011
-632723300011
-Connector
-0
-32
-32
-PABA-DP
-ADAR1000ACCZN
-
-ADAR1000ACCZN 
-0
-89
-89
-PABA-DP
-ADF4159CCPZ
-
-ADF4159CCPZ 
-0
-25
-25
-PABA-DP
-ADL8107ACPZN-R7
-8-Lead Lead Frame Chip Scale Package [LFCSP] 2 mm × 2 mm Body and 0.85 mm Package Height (CP-8-30)
-Integrated Circuit
-0
-9
-9
-PABA-DP
-ADM7170ACPZ-4.2-R7 lfcsp 3x3
-8-Lead LFCSP*
-Integrated Circuit
-0
-9
-9
-PABA-DP
-BFCN1052
-FV1206-9
-Filter
-0
-4
-4
-PABA-DP
-COAX2_U.FL-R-SMT-101_HIR
-
-U.FL-R-SMT-101 
-0
-3
-3
-PABA-DP
-CPRX2520L-6R8MC
-
-
-0
-2
-2
-PABA-DP
-CWX823-100.0M
-CWX823-100.0M
-
-0
-4
-4
-PABA-DP
-C_0201_0603Metric
-Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
-capacitor
-0
-4
-2
-PABA-DP
-C_0402_1005Metric
-Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-PABA-DP
-C_0603_1608Metric
-Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-PABA-DP
-C_0805_2012Metric
-Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-PABA-DP
-C_1210_3225Metric
-Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-PABA-DP
-D_SMA
-Diode SMA (DO-214AC)
-Diode SMA (DO-214AC)
-0
-2
-2
-PABA-DP
-D_SOD-323
-SOD-323
-SOD-323
-0
-2
-2
-PABA-DP
-EVQ-PNF04M
-EVQ5PN05K
-Switch
-0
-2
-2
-PABA-DP
-HMC652LP2E TDFN 2x2
-6 Lead 2x2 mm SMT
-Integrated Circuit
-0
-7
-7
-PABA-DP
-HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm
-HTSSOP, 20 Pin (http://www.ti.com/lit/ds/symlink/bq24006.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP/R-PDSO-G20
-0
-24
-21
-PABA-DP
-KEYSTONE_5009
-
-
-0
-1
-1
-PABA-DP
-LED_0603_1608Metric
-LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED
-0
-2
-2
-PABA-DP
-LFCG2500
-LFCG-2500+-1
-Filter
-0
-8
-8
-PABA-DP
-LFCSP-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm
-LFCSP, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/HMC7992.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead
-0
-21
-17
-PABA-DP
-LFCSP-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
-LFCSP, 20 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-20/CP_20_8.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead
-0
-25
-21
-PABA-DP
-LFCW-1062+
- LFCW-1062+
-
-0
-4
-4
-PABA-DP
-LT3460ESC6#TRMPBF sc-70-6 sc-88
-SOT-363, SC-70-6, SC-88
-SOT-363 SC-70-6 SC-88
-0
-6
-6
-PABA-DP
-LT8609SEV#TRPBF
-LQFN Package 16-Lead (3mm × 3mm × 0.94mm)
-Integrated Circuit
-0
-21
-21
-PABA-DP
-LTC5548IUDB#TRPBF
-UDB Package Variation A 12-Lead Plastic QFN (3mm × 2mm)
-Integrated Circuit
-0
-13
-13
-PABA-DP
-L_0603_1608Metric
-Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-inductor
-0
-2
-2
-PABA-DP
-L_0805_2012Metric_Pad1.05x1.20mm_HandSolder
-Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-inductor handsolder
-0
-2
-2
-PABA-DP
-MOLEX_85305-0232
-
-
-0
-2
-2
-PABA-DP
-Patch Antenna
-
-
-0
-37
-37
-PABA-DP
-PinHeader_1x02_P2.54mm_Vertical
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-PABA-DP
-PinHeader_1x03_P2.54mm_Vertical
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
-0
-3
-3
-PABA-DP
-PinHeader_1x07_P2.54mm_Vertical
-Through hole straight pin header, 1x07, 2.54mm pitch, single row
-Through hole pin header THT 1x07 2.54mm single row
-0
-7
-7
-PABA-DP
-PinHeader_2x07_P2.54mm_Vertical
-Through hole straight pin header, 2x07, 2.54mm pitch, double rows
-Through hole pin header THT 2x07 2.54mm double row
-0
-14
-14
-PABA-DP
-PinSocket_2x20_P2.54mm_Vertical_SMD
-surface-mounted straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
-Surface mounted socket strip SMD 2x20 2.54mm double row
-0
-40
-40
-PABA-DP
-QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
-QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-29
-25
-PABA-DP
-QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm
-QFN, 32 Pin (https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-37
-33
-PABA-DP
-R_0201_0603Metric
-Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
-resistor
-0
-4
-2
-PABA-DP
-R_0402_1005Metric
-Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-PABA-DP
-R_0603_1608Metric
-Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-PABA-DP
-SNS50Mill
-
-
-0
-2
-2
-PABA-DP
-SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm
-SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
-0
-13
-9
-PABA-DP
-SOIC-16_3.9x9.9mm_P1.27mm
-SOIC, 16 Pin (JEDEC MS-012, variation AC, https://www.jedec.org/document_search?search_api_views_fulltext=MS-012, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow
-0
-16
-16
-PABA-DP
-SOT-23-5
-SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
-0
-5
-5
-PABA-DP
-TC1-1-13M+
-
-
-0
-5
-5
-PABA-DP
-TSOT-23-5
-TSOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSOT TO_SOT_SMD
-0
-5
-5
-PABA-DP
-TSSOP-8_4.4x3mm_P0.65mm
-TSSOP, 8 Pin (JEDEC MO-153 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSSOP SO
-0
-8
-8
-PABA-DP
-TSSOP-14_4.4x5mm_P0.65mm
-TSSOP, 14 Pin (JEDEC MO-153 Var AB-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSSOP SO
-0
-14
-14
-PABA-DP
-TSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm
-TSSOP, 16 Pin (Allegro A4954 https://www.allegromicro.com/-/media/Files/Datasheets/A4954-Datasheet.ashx), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSSOP SO
-0
-21
-17
-PABA-DP
-Testpoint
-
-
-0
-1
-1
-PABA-DP
-Untitled
-
-
-0
-0
-0
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
