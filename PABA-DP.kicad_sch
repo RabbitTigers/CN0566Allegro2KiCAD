@@ -5,9 +5,21 @@
 	(uuid "1b74eff2-580c-4b71-b276-daaf48eb9de6")
 	(paper "A3")
 	(lib_symbols)
+	(text "CN-0566\nBEAMFORMING DEMONSTRATION\nPLATFORM\n\n\"PHASER\""
+		(exclude_from_sim no)
+		(at 216.154 108.966 0)
+		(effects
+			(font
+				(size 10 10)
+				(thickness 1.25)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bd782d41-0485-446b-9f08-4d2d28957205")
+	)
 	(sheet
-		(at 129.286 101.6)
-		(size 46.736 32.004)
+		(at 314.198 150.622)
+		(size 18.542 11.684)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +34,7 @@
 		)
 		(uuid "0b1914dc-be5b-4581-b42f-56de2ba5104f")
 		(property "Sheetname" "5"
-			(at 129.286 100.8884 0)
+			(at 314.198 149.9104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +43,7 @@
 			)
 		)
 		(property "Sheetfile" "5.kicad_sch"
-			(at 129.286 134.1886 0)
+			(at 314.198 162.8906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +60,8 @@
 		)
 	)
 	(sheet
-		(at 312.166 49.53)
-		(size 42.926 33.782)
+		(at 376.936 131.318)
+		(size 17.018 12.446)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +76,7 @@
 		)
 		(uuid "14e8ad26-e8e7-4559-bbb0-15a3e89ef4b5")
 		(property "Sheetname" "4"
-			(at 312.166 48.8184 0)
+			(at 376.936 130.6064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +85,7 @@
 			)
 		)
 		(property "Sheetfile" "4.kicad_sch"
-			(at 312.166 83.8966 0)
+			(at 376.936 144.3486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,8 +102,8 @@
 		)
 	)
 	(sheet
-		(at 309.88 101.6)
-		(size 45.212 34.544)
+		(at 377.698 150.876)
+		(size 16.51 12.192)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +118,7 @@
 		)
 		(uuid "17819185-0b38-4038-ad82-8b610da734eb")
 		(property "Sheetname" "8"
-			(at 309.88 100.8884 0)
+			(at 377.698 150.1644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +127,7 @@
 			)
 		)
 		(property "Sheetfile" "8.kicad_sch"
-			(at 309.88 136.7286 0)
+			(at 377.698 163.6526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,8 +144,8 @@
 		)
 	)
 	(sheet
-		(at 187.96 101.092)
-		(size 45.974 33.02)
+		(at 336.296 150.876)
+		(size 18.034 11.684)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -148,7 +160,7 @@
 		)
 		(uuid "1bb463f2-adb7-43c1-b2c9-0d8fc8ad8d0c")
 		(property "Sheetname" "6"
-			(at 187.96 100.3804 0)
+			(at 336.296 150.1644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +169,7 @@
 			)
 		)
 		(property "Sheetfile" "6.kicad_sch"
-			(at 187.96 134.6966 0)
+			(at 336.296 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,8 +186,8 @@
 		)
 	)
 	(sheet
-		(at 188.214 148.844)
-		(size 46.482 29.718)
+		(at 336.804 172.72)
+		(size 18.034 10.668)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -190,7 +202,7 @@
 		)
 		(uuid "255b28b1-2c3c-4f46-be75-54eebaaa3690")
 		(property "Sheetname" "10"
-			(at 188.214 148.1324 0)
+			(at 336.804 172.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +211,7 @@
 			)
 		)
 		(property "Sheetfile" "10.kicad_sch"
-			(at 188.214 179.1466 0)
+			(at 336.804 183.9726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,8 +228,8 @@
 		)
 	)
 	(sheet
-		(at 248.158 149.098)
-		(size 44.45 28.956)
+		(at 359.156 172.466)
+		(size 16.764 10.922)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -232,7 +244,7 @@
 		)
 		(uuid "36aa104a-a202-48cf-9fd8-262c151ad211")
 		(property "Sheetname" "11"
-			(at 248.158 148.3864 0)
+			(at 359.156 171.7544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +253,7 @@
 			)
 		)
 		(property "Sheetfile" "11.kicad_sch"
-			(at 248.158 178.6386 0)
+			(at 359.156 183.9726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,8 +270,8 @@
 		)
 	)
 	(sheet
-		(at 129.54 148.336)
-		(size 45.974 28.194)
+		(at 314.96 172.974)
+		(size 18.034 10.414)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -274,7 +286,7 @@
 		)
 		(uuid "3f70e153-97cb-4183-b848-6b8fbc736da8")
 		(property "Sheetname" "9"
-			(at 129.54 147.6244 0)
+			(at 314.96 172.2624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,7 +295,7 @@
 			)
 		)
 		(property "Sheetfile" "9.kicad_sch"
-			(at 129.54 177.1146 0)
+			(at 314.96 183.9726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,8 +312,8 @@
 		)
 	)
 	(sheet
-		(at 310.388 149.352)
-		(size 44.45 29.464)
+		(at 378.46 172.466)
+		(size 16.002 10.922)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -316,7 +328,7 @@
 		)
 		(uuid "680c579b-d0d2-4d68-9c4f-a41f9ef541a4")
 		(property "Sheetname" "12"
-			(at 310.388 148.6404 0)
+			(at 378.46 171.7544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -325,7 +337,7 @@
 			)
 		)
 		(property "Sheetfile" "12.kicad_sch"
-			(at 310.388 179.4006 0)
+			(at 378.46 183.9726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,8 +354,8 @@
 		)
 	)
 	(sheet
-		(at 252.476 49.022)
-		(size 41.91 33.528)
+		(at 358.14 131.572)
+		(size 17.018 12.192)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -358,7 +370,7 @@
 		)
 		(uuid "68256175-a9c4-4004-953a-3c49a62a0a05")
 		(property "Sheetname" "3"
-			(at 252.476 48.3104 0)
+			(at 358.14 130.8604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +379,7 @@
 			)
 		)
 		(property "Sheetfile" "3.kicad_sch"
-			(at 252.476 83.1346 0)
+			(at 358.14 144.3486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,8 +396,50 @@
 		)
 	)
 	(sheet
-		(at 247.65 101.6)
-		(size 45.466 33.782)
+		(at 334.264 131.064)
+		(size 18.288 12.954)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8cd84bb-8a55-430e-87f8-eeb9e7365877")
+		(property "Sheetname" "2"
+			(at 334.264 130.3524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2.kicad_sch"
+			(at 334.264 144.6026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PABA-DP"
+				(path "/1b74eff2-580c-4b71-b276-daaf48eb9de6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 358.14 150.622)
+		(size 17.526 12.192)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -400,7 +454,7 @@
 		)
 		(uuid "cd8f8cf4-52e4-4c10-b749-78082ccab946")
 		(property "Sheetname" "7"
-			(at 247.65 100.8884 0)
+			(at 358.14 149.9104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409,7 +463,7 @@
 			)
 		)
 		(property "Sheetfile" "7.kicad_sch"
-			(at 247.65 135.9666 0)
+			(at 358.14 163.3986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
